@@ -1,0 +1,83 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/paper-background_53876-147734.jpg?semt=ais_hybrid&w=740');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+li {
+    text-align: center;
+}
+
+h1 {
+    color: rgba(125, 169, 159, 0.9);
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+li {
+    color: rgba(125, 169, 159, 0.9);
+}
+
+ul, ol {
+    list-style-type: none; /* Removes bullets and numbers */
+    padding-left: 0; /* Removes default padding */
+    margin-left: 0; /* Removes default margin */
+}
+
+
+
+image-container {
+    display: flex; /* Makes the images align horizontally */
+    justify-content: center; /* Centers the images horizontally */
+    gap: 20px; /* Adds space between the images */
+    margin: 20px 0; /* Adds space above and below the container */
+}
+
+
+.small-image {
+    width: 50px; /* Sets the width of the images */
+    height: auto; /* Maintains the aspect ratio */
+    border: 5px solid black; /* Adds a border around the images */
+    border-radius: 10px; /* Rounds the corners of the border */
+    padding: 5px; /* Adds space between the image and the border */
+    margin: 10px; /* Adds space around the images */
+
+img {
+    border: 5px solid white;
+    padding: 5px;
+    height: 250px;
+    margin: auto;
+    display: block;
+}
+
+.rizz {
+    font-family: "Chiller", cursive;
+    color: hotpink;
+    border: 5px solid white;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: lightpink;
+}
+
+.rizz:hover {
+    font-size: 450%;
+    color: hotpink;
+    border: 5px solid white;
+}

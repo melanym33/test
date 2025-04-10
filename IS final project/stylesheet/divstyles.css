@@ -1,0 +1,39 @@
+.common{
+   /* border: 2px solid white;?*/
+    position:absolute
+
+}
+.nav{
+    position: relative;
+    float: right;
+    font-size: 75%;
+    margin: 10px;
+    
+}
+.footer{
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+    font-size: 50%;
+    font-style: italic;
+    text-align: left;
+    background-color: lightsalmon (169,169,0.9);
+    color: rgba(125, 169, 159, 0.9);
+
+
+}
+.header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    z-index: -1;
+}
+
+.content {
+    position: relative; /* Ensures proper positioning */
+    margin: 20px auto; /* Adds spacing around the content */
+    padding: 20px; /* Adds internal spacing */
+    background-color: rgba(125, 169, 159, 0.9); /* Fixes the background color syntax */
+}
